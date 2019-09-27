@@ -17,8 +17,9 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end
   
-  def meals
+  def meals(howard,meals,length)
     @@all==[]
+    self.all=[]
   end  
   
   # def new_meal_20_percent(waiter, total)
