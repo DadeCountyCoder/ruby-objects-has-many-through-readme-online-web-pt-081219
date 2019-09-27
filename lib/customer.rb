@@ -30,6 +30,7 @@ class Customer
     end
   end
   
+  #can be meals.map 
   def waiters
     meals.collect do |meal|
       meal.waiter
