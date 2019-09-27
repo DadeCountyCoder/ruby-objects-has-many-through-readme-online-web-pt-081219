@@ -1,6 +1,6 @@
 class Customer
   
-  attr_accessor :name, :age 
+  attr_accessor :name, :age, :customer
   @@all=[]
   def initialize(name,age)
     @name=name
