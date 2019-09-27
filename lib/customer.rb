@@ -18,7 +18,7 @@ class Customer
   end
   
   def meals
-    self.customer=[]
+    customer.all=[]
   end  
   
   # def new_meal_20_percent(waiter, total)
