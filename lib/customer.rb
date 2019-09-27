@@ -22,12 +22,16 @@ class Customer
   #   Meal.new(waiter, self, total, tip)
   # end
   
-  # def best_tipper
-  #   best_tipped_meal = meals.max do |meal_a, meal_b|
-  #     meal_a.tip <=> meal_b.tip
+  # def self.oldest_customer
+  #   oldest_age = 0
+  #   oldest_customer = nil
+  #   self.all.each do |customer|
+  #     if customer.age > oldest_age
+  #       oldest_age = customer.age
+  #       oldest_customer = customer
+  #     end
   #   end
-  
-  #   best_tipped_meal.customer
+  #   oldest_customer
   # end
 
 end
