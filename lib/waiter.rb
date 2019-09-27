@@ -15,7 +15,7 @@ class Waiter
     Meal.new(self, customer, total, tip)
   end
   
-  #
+  #returns an Array of Meal instances associated with this waiter
   def meals
     Meal.all.select do |meal|
       meal.waiter == self #checking for waiter now
