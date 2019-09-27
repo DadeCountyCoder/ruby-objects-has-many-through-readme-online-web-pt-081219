@@ -17,12 +17,16 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end
   
-  def Customer(age,name)
-    Customer.new(age,name)
-    @@all=[]
-  end  
+  # def Customer(age,name)
+  #   Customer.new(age,name)
+  #   @@all=[]
+  # end  
   
-  
+  def meals
+    Meal.all.select do |meal|
+      meal.customer == self
+    end
+  end
   
   # def new_meal_20_percent(waiter, total)
   #   tip = total * 0.2
