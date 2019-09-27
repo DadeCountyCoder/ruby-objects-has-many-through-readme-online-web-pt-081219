@@ -17,10 +17,8 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end
   
-  def Customer(howard,meals,length)
-    @self=howard
-    @meals=meals
-    @length=length
+  def Customer(age,name)
+    self=customer.new
    # @@all=[]
   end  
   
