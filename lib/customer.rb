@@ -18,7 +18,6 @@ class Customer
   end
   
   def meals
-  
     @@all=[]
   end  
   
