@@ -17,9 +17,10 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end
   
-  def new_meal_20_percent(waiter, total)
-    tip = total * 0.2
-    Meal.new(waiter, self, total, tip)
-  end
+  # def new_meal_20_percent(waiter, total)
+  #   tip = total * 0.2
+  #   Meal.new(waiter, self, total, tip)
+  # end
+  
   
 end
