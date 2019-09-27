@@ -18,6 +18,9 @@ class Customer
   end
   
   def meals(howard,meals,length)
+    @self=howard
+    @meals=meals
+    @length=length
     @@all=[]
   end  
   
