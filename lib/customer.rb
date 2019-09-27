@@ -6,7 +6,7 @@ class Customer
     @name=name
     @age=age
     @@all<<self
-   end 
+  end 
    
    
   def self.all
@@ -18,7 +18,7 @@ class Customer
   end
   
   def meals
-    customer.all=[]
+    @@all=customer.all
   end  
   
   # def new_meal_20_percent(waiter, total)
