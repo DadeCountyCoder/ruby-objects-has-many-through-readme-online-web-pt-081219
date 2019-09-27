@@ -23,7 +23,7 @@ class Customer
   # end  
   
   
-  #
+  #returns an Array of Meal instances associated with this customer
   def meals
     Meal.all.select do |meal|
       meal.customer == self
