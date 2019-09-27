@@ -21,7 +21,7 @@ class Customer
     @self=howard
     @meals=meals
     @length=length
-    @@all=[]
+   # @@all=[]
   end  
   
   # def new_meal_20_percent(waiter, total)
