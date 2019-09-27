@@ -30,7 +30,11 @@ class Customer
     end
   end
   
-  
+  def waiters
+    meals.all do |meal|
+      meal.waiter
+    end
+  end
   
   # def new_meal_20_percent(waiter, total)
   #   tip = total * 0.2
