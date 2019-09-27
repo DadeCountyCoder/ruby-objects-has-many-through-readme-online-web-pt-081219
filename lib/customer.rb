@@ -18,7 +18,7 @@ class Customer
   end
   
   def Customer(age,name)
-    self=customer.new
+    customer.new=[]
    # @@all=[]
   end  
   
