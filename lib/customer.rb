@@ -19,7 +19,7 @@ class Customer
   
   def Customer(age,name)
     Customer.new(age,name)
-    #@@all=[]
+    @@all=[]
   end  
   
   # def new_meal_20_percent(waiter, total)
