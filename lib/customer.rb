@@ -17,12 +17,12 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end
   
-  # def Customer(howard,meals,length)
-  #   @self=howard
-  #   @meals=meals
-  #   @length=length
-  #   @@all=[]
-  # end  
+  def Customer(howard,meals,length)
+    @self=howard
+    @meals=meals
+    @length=length
+    @@all=[]
+  end  
   
   # def new_meal_20_percent(waiter, total)
   #   tip = total * 0.2
